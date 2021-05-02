@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Raajprajapati.github.io/raaj",
+  "homepage": ".",
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
@@ -30,7 +30,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "...",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

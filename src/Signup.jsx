@@ -110,7 +110,7 @@ function Signup(props){
                     <input name="email" id="semail" type="email" placeholder="Email*" required/>
                     <input name="password" id="spassword" type="password" placeholder="Password*" required/>
                     <input name="cpassword" id="scpassword" type="password" placeholder="Confirm Password*" required/>
-                    <p>* Enter any email as there is no OTP verification</p>
+                    <p>* Enter any email as there is no email verification</p>
 
                     <button onClick = {SignUp}>Sign Up</button>
                 </form>

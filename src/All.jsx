@@ -46,7 +46,7 @@ function All(props) {
 
     return (
         <><section className="main ">
-            <div className="heading">All Notes and Lists</div>
+            <div className="heading">All Notes and Items</div>
             <div className="notes-container">
                 {data.map((elem, index) => {
                     return (

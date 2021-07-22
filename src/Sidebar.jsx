@@ -33,7 +33,7 @@ function Sidebar(props){
     return(<>
     <section className="sidebar" style={{transform:sideMenu? "translateX(-82%)": "translateX(0%)", overflowY:sideMenu? "hidden":"auto", backgroundColor:sideMenu? "#2F485800":"#2F4858"}}>
         <div className="logo">
-            <p>To Do List & Notes</p> 
+            <p>My Agenda</p> 
             <p> <i className="fas fa-bars" onClick={()=>{
                 if (sideMenu){
                     setsideMenu(false)
